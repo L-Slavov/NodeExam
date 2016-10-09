@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>New Article</title>
+    <link href="/css/skeleton.css" rel="stylesheet">
+  <link href="/css/index.css" rel="stylesheet">
+</head>
+<body>
+   <form method="POST" enctype="multipart/form-data">
+    <div class="row">
+      <div class="two columns offset-by-four">
+        <label> Title:
+          <input type="text" name='title'> 
+        </label>
+      </div>
+    </div>
+     <div class="row">
+      <div class="two columns offset-by-four">
+        <label> Description:
+          <textarea name="description"> </textarea> 
+        </label>
+      </div>
+     </div>
+         <div class="row">
+      <div class="two column offset-by-four">
+        <label>File: <input type="file" name='photo'></label>
+     </div>
+      </div>
+<div class="row">
+     <div class="two columns offset-by-three"><a class="button u-full-width" href="/"> Back</a></div>
+     <div class="two columns"><button class="u-full-width" type="submit"> Submit </button></div>
+</div>
+  </form>
+</body>
+</html>

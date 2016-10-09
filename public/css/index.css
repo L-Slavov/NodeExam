@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+ul {
+  padding-left: 40%;
+  
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 4px;
+  
+}
+nav li a {
+   text-decoration: none;
+}
+td:hover {
+  cursor: pointer;
+}
